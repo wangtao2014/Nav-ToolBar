@@ -19,6 +19,7 @@
 		28DFC1D41935A39500958764 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DFC1BC1935A39400958764 /* UIKit.framework */; };
 		28DFC1DC1935A39500958764 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28DFC1DA1935A39500958764 /* InfoPlist.strings */; };
 		28DFC1DE1935A39500958764 /* Nav_ToolBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DFC1DD1935A39500958764 /* Nav_ToolBarTests.m */; };
+		28DFC1E91935A44E00958764 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DFC1E81935A44E00958764 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		28DFC1D91935A39500958764 /* Nav-ToolBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nav-ToolBarTests-Info.plist"; sourceTree = "<group>"; };
 		28DFC1DB1935A39500958764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28DFC1DD1935A39500958764 /* Nav_ToolBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nav_ToolBarTests.m; sourceTree = "<group>"; };
+		28DFC1E71935A44E00958764 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		28DFC1E81935A44E00958764 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				28DFC1C81935A39400958764 /* AppDelegate.m */,
 				28DFC1CA1935A39400958764 /* Images.xcassets */,
 				28DFC1BF1935A39400958764 /* Supporting Files */,
+				28DFC1E71935A44E00958764 /* MainViewController.h */,
+				28DFC1E81935A44E00958764 /* MainViewController.m */,
 			);
 			path = "Nav-ToolBar";
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28DFC1C91935A39400958764 /* AppDelegate.m in Sources */,
+				28DFC1E91935A44E00958764 /* MainViewController.m in Sources */,
 				28DFC1C51935A39400958764 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
